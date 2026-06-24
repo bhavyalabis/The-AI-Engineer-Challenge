@@ -43,3 +43,5 @@ next-env.d.ts
 # AI assistant guidance (kept local)
 AGENTS.md
 CLAUDE.md
+
+.vercel
