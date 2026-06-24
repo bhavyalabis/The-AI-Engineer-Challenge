@@ -6,6 +6,8 @@ import type { NextConfig } from "next";
  *   2. localhost:8000 in dev, the deployed backend in production
  * Any trailing slash is stripped so rewrites don't produce "//api/...".
  */
+
+// const backendUrl = "http://localhost:8000"
 const rawBackendUrl =
   process.env.BACKEND_URL ??
   (process.env.NODE_ENV === "development"
