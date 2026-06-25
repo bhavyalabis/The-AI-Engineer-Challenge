@@ -74,7 +74,6 @@ Set `OPENAI_API_KEY` in your Vercel project environment variables before deployi
 ```
 frontend/
 ├── app/              # App Router pages and layout
-├── components/       # Chat UI components
-├── lib/api.ts        # Backend fetch helpers
+├── components/       # Chat UI (ChatApp.tsx — fetches /api/chat)
 └── next.config.ts    # Dev proxy to FastAPI on port 8000
 ```
